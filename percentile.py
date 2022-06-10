@@ -1,9 +1,9 @@
-import numpy
+import numpy as np
 
-values = [13,21,21,40,42,48,55,72, 85]
+values = [40, 48, 56, 62, 75, 85, 85, 90, 99]
 
-percentile_values = numpy.percentile(values, 65)
+percentile_values = np.percentile(values, 65)
 
 print(f'Percentile Values: {percentile_values}')
 
-# Percentile Values: 49.4
+# Percentile Values: 85.0

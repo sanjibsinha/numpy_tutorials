@@ -1,5 +1,5 @@
 import numpy as np
-data = list(range(20, 100, 10))
+data = list(range(55, 75, 90))
 print(data)
 # [20, 30, 40, 50, 60, 70, 80, 90]
 
