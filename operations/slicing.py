@@ -30,3 +30,8 @@ print(np_arrays[np_arrays < 100])
 print(np_arrays[np_arrays >= 10])
 # [ 11 355  60  17  78  10 111 512]
 print(np_arrays[(np_arrays >= 100) & (np_arrays <= 300 )])
+# [111]
+print(np_arrays[(np_arrays >= 300) | (np_arrays == 300 )])
+# [355 512]
+print(np_arrays[(np_arrays % 2 == 0)])
+# [  2   4  60  78  10 512]
